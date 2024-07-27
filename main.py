@@ -227,6 +227,7 @@ async def cancel_course(callback_query: types.CallbackQuery):
     await callback_query.answer("Siz kursni bekor qildingiz.\nВы отменили курс.", show_alert=True)
 
 async def main():
+
     await dp.start_polling(bot)
 
 if __name__ == "__main__":
